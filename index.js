@@ -5,7 +5,7 @@ const client = new Discord.Client()
 client.on("ready", async () => {
   console.log(`Bot is has been deployed 🚀`)
   client.user
-    .setActivity(`Logistack`, { type: "WATCHING" }) //status code
+    .setActivity(`rsu`, { type: "WATCHING" }) //status code
     .catch(error => console.log(error))
 })
 
